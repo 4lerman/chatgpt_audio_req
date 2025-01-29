@@ -1,0 +1,38 @@
+# Common Ignore (Frontend & Backend)
+
+# Node modules
+**/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+**/dist/
+**/build/
+
+# Environment files
+**/.env
+**/.env.local
+**/.env.development
+**/.env.production
+**/.env.test
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# Cache
+.vite/
+.cache/
+.eslintcache
